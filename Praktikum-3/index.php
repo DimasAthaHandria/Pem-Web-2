@@ -9,7 +9,7 @@
 <body>
     <header>
         <h2>Student Activity Score - STT-NF</h2>
-        <a href="">Home</a> | <a href="">Activity</a> | <a href="">My Score</a> | <a href="">Login</a>
+        <a href="">Home</a> | <a href="">Activity</a> | <a href="">My Score</a> | <a href="fungsi\index.php">Login</a>
     <header>
 
     <footer>

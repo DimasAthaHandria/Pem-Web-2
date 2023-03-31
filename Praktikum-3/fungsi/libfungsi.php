@@ -1,34 +1,31 @@
 <?php 
+
     function kelulusan($_nilai){
-        if($_nilai > 55){
-            return 'Lulus';
+        if($_nilai > 56){
+            return 'LULUS';
+        } elseif($_nilai <  56){
+            return 'TIDAK LULUS';
+        } else{
+            return 'TIDAK VALID';
         }
-        elseif($_nilai < 56){
-            return 'Tidak Lulus';
-        }
-        else{
-            return 'Tidak Valid';
-        }
+
     }
 
     function grade($_nilai){
         if($_nilai <= 35){
             return 'E';
-        }
-        elseif($_nilai <= 55){
+        } elseif($_nilai <= 55){
             return 'D';
-        }
-        elseif($_nilai <= 69){
+        } elseif($_nilai <= 69 ){
             return 'C';
-        }
-        elseif($_nilai <= 84){
+        } elseif ($_nilai <= 84 ){
             return 'B';
-        }
-        elseif($_nilai <= 100){
+        } elseif ($_nilai <= 100 ){
             return 'A';
-        }
-        else{
-            return 'Tidak Valid';
+        } else {
+            return 'TIDAK VALID';
         }
     }
+
+
 ?>
